@@ -20,14 +20,14 @@ def longestPalindrome(_string):
                 if _string[_start] == _string[end]:
                     table[_start][end]=True
                     max_length = length
-                    _start = start
+                    start = _start
             else:
                 # we need to check the bookend values and ensure the 
                 # values in the middle are already set to true
                 if _string[_start] == _string[end] and table[_start+1][end-1]:
                     table[_start][end]=True
                     max_length = length
-                    _start = start
+                    start = _start
     return _string[start:start+max_length]
 
 print(longestPalindrome("ABBC"))
