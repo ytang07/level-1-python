@@ -11,23 +11,23 @@ def longestPalindrome(_string):
     # double for loop to go through all the lengths starting with 2
     for length in range(2,len(_string)+1):
         # loop through all possible starting indices
-        for start in range(len(_string)-length+1):
+        for _start in range(len(_string)-length+1):
             # declare end index
-            end = start + length - 1
+            end = _start + length - 1
             # if we're checking for a length of 2
             if length==2:
                 # we only need to check two values
-                if _string[start] == _string[end]:
-                    table[start][end]=True
+                if _string[_start] == _string[end]:
+                    table[_start][end]=True
                     max_length = length
-                    start = start
+                    _start = start
             else:
                 # we need to check the bookend values and ensure the 
                 # values in the middle are already set to true
-                if _string[start] == _string[end] and table[start+1][end-1]:
-                    table[start][end]=True
+                if _string[_start] == _string[end] and table[_start+1][end-1]:
+                    table[_start][end]=True
                     max_length = length
-                    start = start
+                    _start = start
     return _string[start:start+max_length]
 
 print(longestPalindrome("ABBC"))
@@ -35,3 +35,4 @@ print(longestPalindrome("ABCCBBBA"))
 print(longestPalindrome("CDAABBBAACD"))
 print(longestPalindrome("AAB"))
 print(longestPalindrome("ABCDEFG"))
+print(longestPalindrome("AABBAA"))
