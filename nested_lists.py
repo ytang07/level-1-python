@@ -20,12 +20,14 @@ print(concat_nlist)
 # reverse a nested list
 concat_nlist.reverse()
 print(concat_nlist)
+# re-reverse for next part
 concat_nlist.reverse()
 
 # reverse sub elements of nested list
 for _list in concat_nlist:
     _list.reverse()
 print(concat_nlist)
+# re-reverse for next part
 for _list in concat_nlist:
     _list.reverse()
 
@@ -34,6 +36,7 @@ for _list in concat_nlist:
     _list.reverse()
 concat_nlist.reverse()
 print(concat_nlist)
+# re-reverse for next part
 for _list in concat_nlist:
     _list.reverse()
 concat_nlist.reverse()
