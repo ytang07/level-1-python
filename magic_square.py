@@ -69,6 +69,6 @@ def create_square(params: list):
                 square[i][j] += pattern[i][j]
     return square
 
-sq = create_square([8, 4, 1, 1, 1])
+sq = create_square([8, 4, 2, 1, 1])
 for l in sq:
     print(l)
