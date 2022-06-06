@@ -1,6 +1,3 @@
-from distutils.command.config import config
-
-
 conf_matrix = {
     "tp": 8,
     "fp": 1,
