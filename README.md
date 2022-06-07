@@ -12,4 +12,5 @@ Related Tutorials:
 - [Word Cloud in 10 lines](https://pythonalgos.com/create-a-word-cloud-in-10-lines-of-python/)
 - [Matrix Multiplication in Pure Python](https://pythonalgos.com/level-1-python-pure-python-matrix-multiplication/)
 - [Nested Lists](https://pythonalgos.com/nested-lists-in-python/)
-- [Magic Square](https://pythonalgos.com/how-to-make-a-4x4-magic-square-in-python/)
+- [4x4 Magic Square Generator](https://pythonalgos.com/how-to-make-a-4x4-magic-square-in-python/)
+- [Accuracy Precision Recall F Score](https://pythonalgos.com/accuracy-precision-recall-and-f-score/)
