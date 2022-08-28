@@ -25,5 +25,3 @@ if __name__ == "__main__":
     p2.start()
     p1.join()
     p2.join()
-    print(p1)
-    print(type(p1))
