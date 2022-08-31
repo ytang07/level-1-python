@@ -1,4 +1,3 @@
-from string import hexdigits
 from PIL import Image
 
 im = Image.open("./cloud_shape.png")
