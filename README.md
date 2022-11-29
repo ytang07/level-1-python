@@ -14,3 +14,4 @@ Related Tutorials:
 - [Nested Lists](https://pythonalgos.com/nested-lists-in-python/)
 - [4x4 Magic Square Generator](https://pythonalgos.com/how-to-make-a-4x4-magic-square-in-python/)
 - [Accuracy Precision Recall F Score](https://pythonalgos.com/accuracy-precision-recall-and-f-score/)
+- [Converting Audio File Type in Python](https://pythonalgos.com/converting-audio-file-type-in-python/)
