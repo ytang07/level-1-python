@@ -1,0 +1,11 @@
+,age,workclass,education,marital-status,occupation,relationship,race,sex,hours-per-week,native-country,income
+10995,20,?,Some-college,Never-married,?,Not-in-family,White,Male,40,United-States,<=50K
+1562,75,?,Bachelors,Widowed,?,Not-in-family,White,Female,16,United-States,>50K
+31119,28,Private,Some-college,Never-married,Craft-repair,Not-in-family,Black,Male,40,United-States,<=50K
+8472,75,?,Bachelors,Married-civ-spouse,?,Husband,White,Male,6,United-States,<=50K
+8607,22,?,HS-grad,Never-married,?,Unmarried,Black,Female,40,United-States,<=50K
+10190,40,Private,7th-8th,Married-civ-spouse,Sales,Husband,White,Male,40,United-States,<=50K
+25388,27,Private,HS-grad,Never-married,Transport-moving,Own-child,White,Female,15,United-States,<=50K
+16324,61,Private,HS-grad,Married-civ-spouse,Adm-clerical,Husband,White,Male,40,United-States,<=50K
+12474,36,Private,Assoc-voc,Divorced,Sales,Unmarried,White,Female,40,United-States,<=50K
+28994,42,Private,HS-grad,Divorced,Transport-moving,Not-in-family,White,Male,40,United-States,<=50K
