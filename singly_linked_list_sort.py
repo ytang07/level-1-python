@@ -15,8 +15,6 @@ class Node(object):
         print(self.value)
     
     # keep track of min and parent
-    # while parent has next
-    # # if next value is 
     def find_min(self):
         if self.next is None:
             return None, self
