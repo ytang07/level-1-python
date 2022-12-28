@@ -19,7 +19,7 @@ class Node(object):
     # # if next value is 
     def find_min(self):
         if self.next is None:
-            return self, self
+            return None, self
         min = self
         parent = None
         while self.next is not None:
